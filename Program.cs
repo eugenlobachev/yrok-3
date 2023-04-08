@@ -1,6 +1,6 @@
 ﻿//Задача 19
 
-/*int num,r,sum=0,t;
+int num,r,sum=0,t;
 Console.Write(" Введите пятизначное число: ");
 num = Convert.ToInt32(Console.ReadLine());
 if(num>9999 && num<100000)
@@ -15,7 +15,7 @@ Console.Write($"{t} является палиндромом.");
 else
 Console.Write($"{t} не является палиндромом.");
 } else
-Console.Write("Не пятизачное, повторите попытку снова. ");*/
+Console.Write("Не пятизачное, повторите попытку снова. ");
 
 
 
@@ -37,3 +37,17 @@ double numZb = double.Parse(Console.ReadLine());
 
 double rust = Math.Sqrt(Math.Pow((numXb-numXa), 2) + Math.Pow((numYb - numYa), 2) + Math.Pow((numZb - numZa), 2) );
 Console.WriteLine($"{rust}");
+
+
+
+//Задача 23
+
+Console.WriteLine("Введите число N");
+int input1 = int.Parse(Console.ReadLine());
+
+for (int i= 1; i<=input1;i++)
+{
+    System.Console.WriteLine($"{i*i*i}");
+}
+
+//p.s. Извините что не вложился в срок :)
